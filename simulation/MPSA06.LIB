@@ -1,0 +1,50 @@
+******
+* Spice Model
+* Item: MPSA06
+* Date: 8/11/10
+* Revision History: A
+* ==========================================================
+* This model was developed by: 
+* Central Semiconductor Corp.
+* 145 Adams Avenue
+* Hauppauge, NY 11788
+*
+* These models are subject to change without notice.
+* Users may not directly or indirectly re-sell or 
+* re-distribute this model. This model may not 
+* be modified, or altered without the consent of Central Semiconductor Corp. 
+*
+* For more information on this model contact
+* Central Semiconductor Corp. at:
+* (631) 435-1110 or Engineering@centralsemi.com
+* http://www.centralsemi.com
+* ==========================================================
+******
+*SRC=MPSA06;MPSA06;BJTs NPN; Si;  80.0V  0.50A  100MHz   Central Semi Central Semi
+.MODEL MPSA06  NPN (
++ IS=573.03E-15
++ BF=163.91
++ VAF=100
++ IKF=4.9413
++ ISE=573.03E-15
++ NE=1.4705
++ BR=11.586
++ VAR=100
++ IKR=1.0936
++ ISC=41.155E-12
++ NC=1.6728
++ NK=1.9941
++ RB=2.7266
++ RC=7.8704E-3
++ CJE=61.424E-12
++ VJE=.70914
++ MJE=.34878
++ CJC=17.993E-12
++ VJC=.48376
++ MJC=.38719
++ TF=392.62E-12
++ XTF=16.608
++ VTF=7.5383
++ ITF=.38614
++ TR=10.000E-9 )
+******
